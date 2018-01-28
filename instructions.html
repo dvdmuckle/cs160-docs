@@ -1,27 +1,29 @@
-<h1>Installing Eclipse and Checkstyle</h1>
+<head><title>Eclipse CS160 Installation and Configuration</title></head>
+<body>
+	<h1>Installing Eclipse and Checkstyle</h1>
 
-<p>If you haven’t already, plase follow steps 1 through 4 at <a href="https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html" rel="nofollow">https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html</a>. If you’re using a Mac, please use <a href="https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html" rel="nofollow">https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html</a>. Note that step 0 is unecessary for Windows, as java can already be found in the Path by default. Note that <code>stdlib.jar</code> is not necessary, as the latest version of the <code>algs4.jar</code> libarary includes <code>stdlib</code>’s functionality.</p>
+	<p>If you haven’t already, plase follow steps 1 through 4 at <a href="https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html" rel="nofollow">https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html</a>. If you’re using a Mac, please use <a href="https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html" rel="nofollow">https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html</a>. Note that step 0 is unecessary for Windows, as java can already be found in the Path by default. Note that <code>stdlib.jar</code> is not necessary, as the latest version of the <code>algs4.jar</code> libarary includes <code>stdlib</code>’s functionality.</p>
 
-<ol>
-<li><p>Head to <a href="https://www.eclipse.org/ide/" rel="nofollow">https://www.eclipse.org/ide/</a> and download “Java IDE.”</p>
+	<ol>
+		<li><p>Head to <a href="https://www.eclipse.org/ide/" rel="nofollow">https://www.eclipse.org/ide/</a> and download “Java IDE.”</p>
 
-<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/website.png" alt="Eclipse Website"/></p></li>
+			<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/website.png" alt="Eclipse Website"/></p></li>
 
-<li><p>Run the downloaded installer. If it says Java is required, click “No” on the following popup. The installer will then open a webpage where you can download the Java JDK if it is not present. Make sure to download JDK 1.8 if you don’t have it. If you’re using the same computer as from a previous CS class, you should already be settled with Java.</p></li>
+		<li><p>Run the downloaded installer. If it says Java is required, click “No” on the following popup. The installer will then open a webpage where you can download the Java JDK if it is not present. Make sure to download JDK 1.8 if you don’t have it. If you’re using the same computer as from a previous CS class, you should already be settled with Java.</p></li>
 
-<li><p>From the installer, select the “Eclipse IDE for Java Developers” option.</p>
+		<li><p>From the installer, select the “Eclipse IDE for Java Developers” option.</p>
 
-<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/installer.png" alt="Installer"/></p></li>
+			<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/installer.png" alt="Installer"/></p></li>
 
-<li><p>Once the installer has completed installing Eclipse, luanch it. Eclipse will ask you where you want to make your workspace. You can chose any location on your machine for this. This will be where all your projects will be stored, so a good location for the workspace might be in your “Documents” folder. <em>Don’t make it the “Documents” folder itself.</em> On the main menu, click “Launch the Eclipse Marketplace.” From here, you can install many plugins for Eclipse that can enhance the IDE. We want to install the Checkstyle plugin. In the “Find” field, type “checkstyle” and hit enter. There should be three results. Install the last result, called “Checkstyle Plug-in 8.7.0.”</p>
+		<li><p>Once the installer has completed installing Eclipse, luanch it. Eclipse will ask you where you want to make your workspace. You can chose any location on your machine for this. This will be where all your projects will be stored, so a good location for the workspace might be in your “Documents” folder. <em>Don’t make it the “Documents” folder itself.</em> On the main menu, click “Launch the Eclipse Marketplace.” From here, you can install many plugins for Eclipse that can enhance the IDE. We want to install the Checkstyle plugin. In the “Find” field, type “checkstyle” and hit enter. There should be three results. Install the last result, called “Checkstyle Plug-in 8.7.0.”</p>
 
-<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/marketplace.png" alt="Eclipse Marketplace"/></p></li>
+			<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/marketplace.png" alt="Eclipse Marketplace"/></p></li>
 
-<li><p>Close the installer. Under “Window” in Eclipse, click “Preferences.” Here you can tune some Eclipse settings. Click “Checkstyle” from the left menu. We want to add a new style. You should be supplied with a <code>checkstyle.xml</code> file. Before adding it to Eclipse, move it to a permanent folder, possibly where you set up your <code>algs4.jar</code> library. Now, click “New…” in the Checkstyle configurator. Set the type to be “External Configuration File.” Name the configuration whatever you want, possibly CS160. Now you can “Browse…” for the file wherever you stored it earlier. Once done, hit “OK.”</p>
+		<li><p>Close the installer. Under “Window” in Eclipse, click “Preferences.” Here you can tune some Eclipse settings. Click “Checkstyle” from the left menu. We want to add a new style. You should be supplied with a <code>checkstyle.xml</code> file. Before adding it to Eclipse, move it to a permanent folder, possibly where you set up your <code>algs4.jar</code> library. Now, click “New…” in the Checkstyle configurator. Set the type to be “External Configuration File.” Name the configuration whatever you want, possibly CS160. Now you can “Browse…” for the file wherever you stored it earlier. Once done, hit “OK.”</p>
 
-<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/checkstyle.png" alt="Checkstyle"/></p></li>
+			<p><img src="https://github.com/dvdmuckle/cs160-docs/blob/master/images/checkstyle.png" alt="Checkstyle"/></p></li>
 
-<li><p>Now that Eclipse is installed and configured with Checkstyle, you may wish to start writing unit tests with JUnit. Head on over to <a href="http://junit.org/junit4/" rel="nofollow">http://junit.org/junit4/</a> to read more about JUnit, and <a href="https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm" rel="nofollow">https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm</a> for how to use it with Eclipse.</p></li>
-</ol>
+		<li><p>Now that Eclipse is installed and configured with Checkstyle, you may wish to start writing unit tests with JUnit. Head on over to <a href="http://junit.org/junit4/" rel="nofollow">http://junit.org/junit4/</a> to read more about JUnit, and <a href="https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm" rel="nofollow">https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm</a> for how to use it with Eclipse.</p></li>
+	</ol>
 
-
+</body>
