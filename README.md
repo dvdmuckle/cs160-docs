@@ -6,9 +6,9 @@ If you haven't already, plase follow steps 1 through 4 at https://mathcs.clarku.
 
 1. Head to https://www.eclipse.org/ide/ and download "Java IDE."
 
-2. Run the downloaded installer. If it says Java is required, click "No" on the following popup. The installer will then open a webpage where you can download the Java JDK if it is not present. Make sure to download JDK 1.8 if you don't have it. If you're using the same computer as from a previous CS class, you should already be settled with Java.
-
     ![Eclipse Website](https://github.com/dvdmuckle/cs160-docs/blob/master/images/website.png)
+
+2. Run the downloaded installer. If it says Java is required, click "No" on the following popup. The installer will then open a webpage where you can download the Java JDK if it is not present. Make sure to download JDK 1.8 if you don't have it. If you're using the same computer as from a previous CS class, you should already be settled with Java.
 
 3. From the installer, select the "Eclipse IDE for Java Developers" option.
 
