@@ -21,5 +21,4 @@ If you haven't already, plase follow steps 1 through 4 at https://mathcs.clarku.
 
     ![Checkstyle](https://github.com/dvdmuckle/cs160-docs/blob/master/images/checkstyle.png)
 
-6. Now that Eclipse is installed and configured with Checkstyle, you may wish to start writing unit tests with JUnit. Head on over to http://junit.org/junit4/ to read more about JUnit, and https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm for how to use it with Eclipse.
-
+6. Now that Eclipse is installed and configured with Checkstyle, you may wish to start writing unit tests with JUnit. Head on over to http://junit.org/junit4/ to read more about JUnit, and https://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm for how to use it with Eclipse. For coding examples of using JUnit, please see http://cs.lmu.edu/~ray/notes/queues/.
