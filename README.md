@@ -17,7 +17,7 @@ If you haven't already, plase follow steps 1 through 4 at https://mathcs.clarku.
 
     ![Eclipse Marketplace](https://github.com/dvdmuckle/cs160-docs/blob/master/images/marketplace.png)
 
-5. Close the installer. Under "Window" in Eclipse, click "Preferences." Here you can tune some Eclipse settings. Click "Checkstyle" from the left menu. We want to add a new style. You should be supplied with a `checkstyle.xml` file. Before adding it to Eclipse, move it to a permanent folder, possibly where you set up your `algs4.jar` library. Now, click "New..." in the Checkstyle configurator. Set the type to be "External Configuration File." Name the configuration whatever you want, possibly CS160. Now you can "Browse..." for the file wherever you stored it earlier. Once done, hit "OK."
+5. Close the installer. Under "Window" in Eclipse, click "Preferences." Here you can tune some Eclipse settings. Click "Checkstyle" from the left menu. We want to add a new style. You can download the `checkstyle.xml` file [here](https://raw.githubusercontent.com/dvdmuckle/cs160-docs/master/checkstyle.xml). Before adding it to Eclipse, move it to a permanent folder, possibly where you set up your `algs4.jar` library. Now, click "New..." in the Checkstyle configurator. Set the type to be "External Configuration File." Name the configuration whatever you want, possibly CS160. Now you can "Browse..." for the file wherever you stored it earlier. Once done, hit "OK."
 
     ![Checkstyle](https://github.com/dvdmuckle/cs160-docs/blob/master/images/checkstyle.png)
 
