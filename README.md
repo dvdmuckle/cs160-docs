@@ -1,8 +1,6 @@
 # Installing Eclipse and Checkstyle
 
-If you haven't already, plase follow steps 1 through 4 at https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html. If you're using a Mac, please use https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html. Note that step 0 is unecessary for Windows, as java can already be found in the Path by default. Note that `stdlib.jar` is not necessary, as the latest version of the `algs4.jar` libarary includes `stdlib`'s functionality.
-
-
+If you haven't already, plase follow steps 1 through 4 at https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedWindows.html. If you're using a Mac, please use https://mathcs.clarku.edu/~cs121/exercises/week2/GettingStartedMac.html. Note that step 0 is unecessary for Windows, as Java can already be found in the Path by default. Note that `stdlib.jar` should not be downloaded or included in your Classpath. This is because the `algs4.jar` and `stdlib.jar` libaries now share many common classes, and can lead to mixups at compile time if both are included.
 
 1. Head to https://www.eclipse.org/ide/ and download "Java IDE."
 
